@@ -1,0 +1,51 @@
+.collegepage {
+    position: absolute;
+    background: rgb(57, 204, 203);
+    background: radial-gradient(circle, rgba(57, 204, 203, 1) 77%, rgba(57, 183, 199, 1) 100%);
+    color: white;
+    margin-top: 105vh;
+    width: 100vw;
+}
+
+.college_mainhead {
+    font-family: 'Mandatory Plaything', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.college_card {
+    height: 60vh;
+    width: 100vw;
+    /* border: 2px solid rgb(98, 97, 97); */
+}
+
+.college_image_circle {
+
+    /* padding-left: 25%; */
+}
+
+.college_image {
+    height: 60%;
+    width: 100%;
+    /* border-radius: 50%; */
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: 10%; */
+}
+
+.college_image_head {
+    font-size: 1rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.college_msg {
+    width: 90vw;
+    height: 30vh;
+    /* background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 36%, rgba(186,254,253,1) 94%);
+    color: black; */
+    font-weight: bold;
+    font-style: italic;
+}

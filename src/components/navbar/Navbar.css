@@ -1,0 +1,228 @@
+.navbar_flex {
+    /* position: absolute; */
+
+    display: flex;
+
+    position: sticky;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    overflow: hidden;
+    background: rgb(57, 204, 203);
+    background: radial-gradient(circle, rgba(57, 204, 203, 1) 56%, rgba(57, 183, 199, 1) 100%);
+    width: 100vw;
+    /* height: 10vh; */
+    margin-top: 0;
+    /* background-color: transparent; */
+}
+
+.lp_logo {
+    height: 50px;
+    width: 60px;
+    padding-right: 10px;
+}
+
+.navbar_heading {
+    font-family: 'Mandatory Plaything', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hmmenu {
+    margin-left: 25px;
+    width: 8vw;
+    font-size: 2rem;
+}
+
+.show_hmmenu {
+    position: absolute;
+    margin-top: 0vh;
+    width: 30vw;
+    height: 100vh;
+    background-color: rgb(1, 60, 90);
+    z-index: 10;
+    display: none;
+    line-height: 10vh;
+
+}
+
+.show_hmmenu_show {
+
+    display: block;
+}
+
+.resp_navbar {
+    font-size: 2.5rem;
+    font-family: 'Mandatory Plaything', sans-serif;
+
+    /* color: brown; */
+}
+
+@media only screen and (max-width:320px) {
+    .navbar_flex {
+        margin-top: 2vh;
+    }
+
+    .lp_logo {
+        height: 40px;
+        width: 60px;
+        padding-right: 10px;
+    }
+
+    .navbar_heading {
+        font-size: 1.5rem;
+        padding-top: 1vh;
+    }
+
+    .hmenu {
+        margin-left: 10px;
+        margin-right: 21px;
+        width: 6vw;
+        font-size: 2rem;
+    }
+
+    .show_hmmenu {
+        position: absolute;
+        margin-top: 0vh;
+        width: 80vw;
+        height: 100vh;
+        background-color: rgb(1, 60, 90);
+        z-index: 10;
+        display: none;
+        line-height: 10vh;
+
+    }
+
+
+
+    .resp_navbar {
+        font-size: 1.5rem
+    }
+}
+    @media only screen and (max-width:375px) {
+        .navbar_flex {
+            margin-top: 2vh;
+        }
+    
+        .lp_logo {
+            height: 40px;
+            width: 60px;
+            padding-right: 10px;
+        }
+    
+        .navbar_heading {
+            font-size: 1.5rem;
+            padding-top: 1vh;
+        }
+    
+        .hmenu {
+            margin-left: 10px;
+            margin-right: 21px;
+            width: 6vw;
+            font-size: 2rem;
+        }
+    
+        .show_hmmenu {
+            position: absolute;
+            margin-top: 0vh;
+            width: 80vw;
+            height: 100vh;
+            background-color: rgb(1, 60, 90);
+            z-index: 10;
+            display: none;
+            line-height: 10vh;
+    
+        }
+    
+      
+    
+        .resp_navbar {
+            font-size: 1.5rem
+        }
+}
+@media only screen and (max-width:425px) {
+    .navbar_flex {
+        margin-top: 2vh;
+    }
+
+    .lp_logo {
+        height: 40px;
+        width: 60px;
+        padding-right: 10px;
+    }
+
+    .navbar_heading {
+        font-size: 1.5rem;
+        padding-top: 1vh;
+    }
+
+    .hmenu {
+        margin-left: 10px;
+        margin-right: 21px;
+        width: 6vw;
+        font-size: 2rem;
+    }
+
+    .show_hmmenu {
+        position: absolute;
+        margin-top: 0vh;
+        width: 80vw;
+        height: 100vh;
+        background-color: rgb(1, 60, 90);
+        z-index: 10;
+        display: none;
+        line-height: 10vh;
+
+    }
+
+    .resp_navbar {
+        font-size: 1.5rem
+    }
+}
+@media only screen and (max-width:760px) {
+    .navbar_flex {
+        margin-top: 2vh;
+    }
+
+    .lp_logo {
+        height: 40px;
+        width: 60px;
+        padding-right: 10px;
+    }
+
+    .navbar_heading {
+        font-size: 1.5rem;
+        padding-top: 1vh;
+    }
+
+    .hmenu {
+        margin-left: 10px;
+        margin-right: 21px;
+        width: 6vw;
+        font-size: 2rem;
+    }
+
+    .show_hmmenu {
+        position: absolute;
+        margin-top: 0vh;
+        width: 40vw;
+        height: 100vh;
+        background-color: rgb(1, 60, 90);
+        z-index: 10;
+        display: none;
+        line-height: 10vh;
+    
+    }
+    .show_hmmenu_show {
+
+        display: block;
+    }
+
+  
+
+    .resp_navbar {
+        font-size: 1.5rem
+    }
+}
