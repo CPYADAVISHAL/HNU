@@ -48,6 +48,7 @@ import {useState} from "react";
             <button onClick={signInWithGoogle}> Sign In With Google</button>
             <button >Sign in With facebook</button>
             <button onClick={logout}> Logout </button>
+        
         </>
     )
 }
