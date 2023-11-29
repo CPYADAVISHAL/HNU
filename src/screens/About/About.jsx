@@ -45,14 +45,14 @@ function About(props) {
 
         <div>
           <About
-            img="../image/hnsingh.jpeg"
+            // img="../image/hnsingh.jpeg"
             name="HARI NARAYAN SINGH YADAV"
             desg="CHAIRMAN"
             no="XXXXXXXXX"
             msg="life is strugle,strugle is life"
           />
           <About
-            img="../image/hnsingh.jpeg"
+            // img="../image/hnsingh.jpeg"
             name="RAM NARAYAN SINGH YADAV"
             desg="DIRECTER"
             no="XXXXXXXXX"

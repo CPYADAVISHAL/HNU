@@ -1,5 +1,7 @@
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import {initializeApp} from "firebase/app";
+import { getFirestore } from "firebase/firestore";
+import { getStorage } from "firebase/storage";
 const firebaseConfig = {
     apiKey: "AIzaSyBWQycwig0INJsvgyiaXBQnf0e5CbZNyJo",
     authDomain: "hnuniversity-58afc.firebaseapp.com",
